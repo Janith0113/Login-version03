@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f293a;
+}
+.loginbox{
+    position: relative;
+    width: 400px;
+   /* background: red;*/
+}
+.loginbox form{
+    width: 100%;
+    padding: 0 50px;
+}
+h2{
+    font-size: 2em;
+    color: #0ef;
+    text-align: center;
+
+}
+.inputbox{
+    position: relative;
+    margin: 25px 0;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #2c4766;
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 20px;
+    transition: .5s ease;
+} 
+ 
+.inputbox input:focus~label,
+.inputbox input:valid~label{
+    border-color: #0ef;
+}
+
+
+
+.inputbox label{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    transform: translate(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+}
+
+.inputbox input:focus~label,
+.inputbox input:valid~label{
+    top:1px;
+    font-size: .8em;
+}
+
+
+.forgotpass{
+    margin: -15px 0 10px;
+    text-align: center;
+}
+.forgotpass a{
+    font-size: .85em;
+    color: #fff;
+    text-decoration: none;
+
+}
+.forgotpass a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #1f293a;
+    font-weight: 600;
+}
+.signuplink{
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+.signuplink a {
+    font-size: 1em;
+    color: #0ef;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
